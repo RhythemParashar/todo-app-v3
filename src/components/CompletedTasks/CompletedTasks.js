@@ -30,8 +30,8 @@ const CompletedTasks = () => {
               <li key={item.id} className='item-row-completed'>
                 <div className='item-row-left'>
                   {item.isCompleted ? 
-                    <input className='item-checkbox' type="checkbox" onClick={() => handleCheckBox(item.id)} checked/> :
-                    <input className='item-checkbox' type="checkbox" onClick={() => handleCheckBox(item.id)} />}
+                    <input className='item-checkbox' type="checkbox" onChange={() => handleCheckBox(item.id)} defaultChecked={true}/> :
+                    <input className='item-checkbox' type="checkbox" onChange={() => handleCheckBox(item.id)} />}
                   
                   <span className={item.isCompleted ? 'task-completed' : null}>{item.task}</span>
                 </div>

@@ -19,6 +19,8 @@ const InputForm = ({handleClick, buttonFlag}) => {
       isCompleted: false
     }
     dispatchItem(todoItem);
+
+    setInputValue('');
   }
 
   return (
