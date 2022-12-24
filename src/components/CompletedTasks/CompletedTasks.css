@@ -1,0 +1,52 @@
+.completed-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-row-completed {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+    justify-content: space-between;
+}
+
+.item-row-left {
+    display: flex;
+    align-items: center;
+}
+
+.item-row-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.deleteIcon {
+    color: #BDBDBD;
+}
+
+.deleteAll-button {
+    background-color: #EB5757;
+    border: 1px solid #EB5757;
+    border-radius: 4px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.deleteAllIcon {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.delete-button-section {
+    display: flex;
+    justify-content: flex-end;
+}
